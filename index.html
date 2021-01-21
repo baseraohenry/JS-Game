@@ -126,7 +126,7 @@
 
          var count = 0;
          field.addEventListener("click", (e) => {
-            count = count + 1;
+            count += 1;
             e.target.innerHTML = count;
             if (count === 1) {
                e.target.style.cssText = `
